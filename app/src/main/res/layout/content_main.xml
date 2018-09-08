@@ -6,21 +6,24 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.anmol.androidmalwaredetector.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/backgreen">
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="16dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/button">
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/button2">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
         android:id="@+id/text"
-        android:textColor="#000"
-        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -28,24 +31,44 @@
     </ScrollView>
 
     <Spinner
+
         android:id="@+id/Spin"
-        android:layout_width="373dp"
-        android:layout_height="25dp"
-        tools:layout_editor_absoluteY="2dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+
+        android:layout_width="332dp"
+        android:layout_height="42dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        android:background="#f8f8ff"
+        android:dropDownSelector="#dfdfe5"
+        android:dropDownWidth="match_parent"
+        android:theme="@style/Animation.Design.BottomSheetDialog"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
-        android:onClick="format"
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="format"
         android:text="get permisssion"
-        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/Spin" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="147dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="Parse"
+        android:onClick="parseXml"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
