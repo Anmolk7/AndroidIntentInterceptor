@@ -36,25 +36,12 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:onClick="format"
+        android:onClick="parseXml"
         android:text="get permisssion"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Spin" />
 
-    <Button
-        android:id="@+id/button2"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="113dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="16dp"
-        android:text="Parse"
-        android:onClick="parseXml"
-        app:layout_constraintTop_toBottomOf="@+id/Spin"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toRightOf="@+id/button"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.808" />
+
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -69,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#fff"
-        android:textSize="16dp"
+        android:textSize="14dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="16dp"
         android:layout_marginTop="8dp"
