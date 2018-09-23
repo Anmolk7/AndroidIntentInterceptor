@@ -4,8 +4,8 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/bug"
-            android:title="Report Malware" />
+            android:icon="@drawable/threat"
+            android:title="Inter-App Comm." />
 
     </group>
 
