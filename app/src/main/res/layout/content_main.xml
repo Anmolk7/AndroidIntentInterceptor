@@ -7,7 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.anmol.androidmalwaredetector.MainActivity"
     tools:showIn="@layout/app_bar_main"
-    android:background="@drawable/backgreen">
+    android:background="@drawable/purlewhitecrop1">
 
 
 
@@ -58,9 +58,12 @@
         android:textColor="#fff"
         android:textSize="14dp"
         android:textStyle="bold"
+        android:background="@color/colorPrimary"
         tools:layout_editor_absoluteX="16dp"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
     </ScrollView>
+
+
 
 </android.support.constraint.ConstraintLayout>
