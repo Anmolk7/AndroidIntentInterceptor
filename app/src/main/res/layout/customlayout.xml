@@ -3,9 +3,9 @@
     android:id="@android:id/text1"
     android:layout_height="?android:attr/listPreferredItemHeight"
     android:layout_width="fill_parent"
-    android:textSize="17sp"
+    android:textSize="15sp"
     android:textStyle="italic"
     android:paddingLeft="15dip"
     android:paddingRight="6dip"
     android:gravity="left"
-    android:textColor="#fff"/>
+    android:textColor="#2471A3  "/>
