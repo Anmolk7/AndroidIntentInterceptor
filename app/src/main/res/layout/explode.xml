@@ -103,11 +103,13 @@
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/intent_extras_title" />
+                android:text="@string/intent_extras_title"
+                android:textColor="@color/colorAccent"/>
 
             <LinearLayout
                 android:id="@+id/intent_extras_layout"
                 style="@style/ListLayout"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" />
