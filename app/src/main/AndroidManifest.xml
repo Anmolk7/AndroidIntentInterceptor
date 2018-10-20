@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.anmol.androidmalwaredetector">
+    package="com.android.pvamu.androidmalwaredetector">
 
     <application
         android:allowBackup="true"
@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.android.pvamu.androidmalwaredetector.MainActivity"
             android:label="Android Malware Detector"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.android.pvamu.androidmalwaredetector.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,9 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name="com.android.pvamu.androidmalwaredetector.SettingsActivity"></activity>
 
-        <activity android:name=".Explode"
+        <activity android:name="com.android.pvamu.androidmalwaredetector.Explode"
             android:windowSoftInputMode="stateUnchanged">
 
         <intent-filter android:label="@string/intent_filter_label">
@@ -147,10 +147,10 @@
         </intent-filter>
         </activity>
 
-    <activity android:name=".StartupActivity" >
+    <activity android:name="com.android.pvamu.androidmalwaredetector.StartupActivity" >
 
     </activity>
-    <activity android:name=".Pre15SettingsActivity"
+    <activity android:name="com.android.pvamu.androidmalwaredetector.Pre15SettingsActivity"
         android:theme="@android:style/Theme.Light">
     </activity>
 

@@ -21,59 +21,59 @@
             android:paddingLeft="8dp"
             android:paddingRight="8dp" >
 
-            <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/intent_action_title"/>
 
-            <com.example.anmol.androidmalwaredetector.widget.BlockEnterEditText
+            <com.android.pvamu.androidmalwaredetector.widget.BlockEnterEditText
                 android:id="@+id/action_edit"
                 style="@style/EditTextNoSuggestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/no_value_text" />
 
-            <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/intent_data_title" />
 
-            <com.example.anmol.androidmalwaredetector.widget.BlockEnterEditText
+            <com.android.pvamu.androidmalwaredetector.widget.BlockEnterEditText
                 android:id="@+id/data_edit"
                 style="@style/EditTextNoSuggestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/no_value_text" />
 
-            <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/intent_mime_type_title"/>
 
-            <com.example.anmol.androidmalwaredetector.widget.BlockEnterEditText
+            <com.android.pvamu.androidmalwaredetector.widget.BlockEnterEditText
                 android:id="@+id/type_edit"
                 style="@style/EditTextNoSuggestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/no_value_text" />
 
-            <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/intent_uri_title" />
 
-            <com.example.anmol.androidmalwaredetector.widget.BlockEnterEditText
+            <com.android.pvamu.androidmalwaredetector.widget.BlockEnterEditText
                 android:id="@+id/uri_edit"
                 style="@style/EditTextNoSuggestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/no_value_text" />
 
-            <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 android:id="@+id/intent_categories_header"
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" />
 
-           <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+           <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" />
 
-            <com.example.anmol.androidmalwaredetector.widget.UnderlinedTextView
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 android:id="@+id/intent_matching_activities_header"
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
