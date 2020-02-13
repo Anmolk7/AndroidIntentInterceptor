@@ -6,12 +6,12 @@
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="vertical"
     android:showDividers="middle"
-    tools:ignore="NewApi" >
+    tools:ignore="NewApi">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1" >
+        android:layout_weight="1">
 
         <LinearLayout
             android:id="@+id/intent_details"
@@ -19,13 +19,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingLeft="8dp"
-            android:paddingRight="8dp" >
+            android:paddingRight="8dp">
 
+            <!--
             <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/intent_action_title"/>
+                android:text="INTENT TYPE:" />
 
             <com.android.pvamu.androidmalwaredetector.widget.BlockEnterEditText
                 android:id="@+id/action_edit"
@@ -33,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/no_value_text" />
+                -->
 
             <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
@@ -51,7 +53,7 @@
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/intent_mime_type_title"/>
+                android:text="@string/intent_mime_type_title" />
 
             <com.android.pvamu.androidmalwaredetector.widget.BlockEnterEditText
                 android:id="@+id/type_edit"
@@ -86,8 +88,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" />
-
-           <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
+<!--
+            <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -98,28 +100,32 @@
                 style="@style/ListLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+                -->
 
             <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 style="@style/TextHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/intent_extras_title"
-                android:textColor="@color/colorAccent"/>
+                android:text="HIDDEN INFORMATION PASSED IN INTENT"
+                android:textColor="#FF0000"
+                />
 
             <LinearLayout
                 android:id="@+id/intent_extras_layout"
                 style="@style/ListLayout"
 
+
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="vertical" />
 
             <com.android.pvamu.androidmalwaredetector.widget.UnderlinedTextView
                 android:id="@+id/intent_matching_activities_header"
                 style="@style/TextHeader"
+                android:textColor="#FF0000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/intent_matching_activities_title" />
+                android:text="POSSIBLE COMMUNICATING APPLICATIONS" />
 
             <LinearLayout
                 android:id="@+id/intent_matchin_activities_layout"
@@ -141,7 +147,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/reset_intent_button"

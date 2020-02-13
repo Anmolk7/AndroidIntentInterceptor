@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="155dp"
-    android:background="@drawable/navbar"
+    android:background="#28B463"
     android:gravity="bottom"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Malware Detector"
+        android:text="App Collision Detector"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 
